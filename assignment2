@@ -1,1 +1,18 @@
+#html code for todo list
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <h2> LIST : TO SHOW ALL TODO'S</h2>
+    <h2> ADD : TO ADD A TODO</h2>
+    <h2> DELETE : TO DELETE A TODO</h2>
+    <h2> QUIT : TO EXIT TODO</h2>
+    <script src="todoapp.js"></script><!--to link consoleand js file -->
+</body>
+</html>
