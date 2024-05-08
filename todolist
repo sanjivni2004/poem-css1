@@ -1,1 +1,38 @@
+let todo=[];
 
+
+while(true){
+    let i=prompt("enter your todo choice");
+    i=i.toLowerCase();cd 
+    console.log(todo);
+    if(i=="quit"){
+        console.log("quitting");
+        break;
+    }
+
+    else if(i=="add"){
+        let x=prompt("enter the todo to be added");
+        todo.push(x);
+        
+    }
+    else if(i=="delete"){
+        let c;
+        let y=prompt("enter the todo to be deleted");
+        for(let j=0;j<todo.length;j++){
+                if(y ==todo[j]){
+                     c=j;
+                     todo.splice(c,1);
+                     break;
+            }
+           
+
+        }
+    }
+    else if(i=="list"){
+        console.log(todo);
+    }
+
+    else{
+        console.log("Invalid choice");
+    }
+}
